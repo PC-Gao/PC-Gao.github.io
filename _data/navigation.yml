@@ -8,11 +8,11 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  - title: "Publications"
+  - title: "学术期刊"
     url: /publications/
 
-  - title: "Talks"
-    url: /talks/    
+  - title: "项目"
+    url: /project/    
 
   - title: "Teaching"
     url: /teaching/    
