@@ -251,7 +251,7 @@ defaults:
   # _teaching
   - scope:
       path: ""
-      type: teaching
+      type: 项目
     values:
       layout: single
       author_profile: true
@@ -260,7 +260,7 @@ defaults:
   # _publications
   - scope:
       path: ""
-      type: publications
+      type: 学术期刊
     values:
       layout: single
       author_profile: true
@@ -269,7 +269,7 @@ defaults:
   # _portfolio
   - scope:
       path: ""
-      type: portfolio
+      type: 项目展示
     values:
       layout: single
       author_profile: true
@@ -278,7 +278,7 @@ defaults:
   # _talks
   - scope:
       path: ""
-      type: talks
+      type: 生活
     values:
       layout: talk
       author_profile: true
