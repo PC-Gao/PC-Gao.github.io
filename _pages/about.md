@@ -16,14 +16,15 @@ redirect_from:
 * A distant dreamer.<br>
 * My coworkers see me coding.  <br>
 
-* [Photos](https://github.com/PC-Gao/PC-Gao.github.io/raw/master/images/niko.gif) <br>
+* [Photos](https://github.com/PC-Gao/PC-Gao.github.io/blob/master/images/niko.gif) <br>
 <img src="https://github.com/PC-Gao/PC-Gao.github.io/raw/master/images/niko.gif" width="150px"> <br>
 
 </div>
 
 
 ## About Me
-一名热衷于编程与技术探索的工程师，专注于机器学习、计算机视觉与软件开发。我的兴趣包括开源项目、技术分享以及不断学习新知识。
+一名热衷于图像超分辨率、图像去噪、图像增强等前沿算法的硕3小白（老了老了），由于工作性质，目前也熟悉图像识别、图像分割如 DETR、YOLO、Transformer等代表性模型的原理与实现，本博客主要用于展示个人项目、记录兴趣、开源项目、技术分享以及工作中遇到的疑难杂症。 <br>
+个人项目介绍 —— <a href="https://github.com/PC-Gao/Project1" style="text-decoration: none; padding: 2px 2px; background-color:rgb(41, 106, 180); color: white; border-radius: 5px; transition: background-color 0.3s;">链接</a>
 
 
 
