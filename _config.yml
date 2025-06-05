@@ -7,7 +7,7 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
+locale                   : "zh-CN"
 site_theme               : "default"
 title                    : "PCGAO / 主页"
 title_separator          : "-"
@@ -23,12 +23,12 @@ repository               : "PC-Gao/PC-Gao.github.io"
 author:
   # Biographic information
   avatar           : "memory.jpg"
-  name             : "GaoPengCheng"
+  name             : "PCGAO"
   pronouns         : # example: "she/her"  
   bio              : "Regret weaves through life"
   location         : "Shanghai, China" # Location of the author
   employer         : "Zhengzhou University of Light Industry"
-  uri              :  github.com/PC-Gao # URL to the author's personal website or homepage
+  uri              :  /about # URL to the author's personal website or homepage
   email            : "gpc961206@gmail.com" 
 
   # Academic websites
@@ -46,7 +46,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "github.com/PC-Gao"
+  github           : "PC-Gao"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -122,7 +122,7 @@ staticman:
 atom_feed:
   hide                   : false     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
-
+!3152
 
 # SEO Related
 google_site_verification :
