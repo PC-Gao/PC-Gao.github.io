@@ -15,8 +15,10 @@ redirect_from:
 * Maybe spending your life as you wish is success. <br>
 * A distant dreamer.<br>
 * My coworkers see me coding.  <br>
-* [Photos](https://github.com/PC-Gao/PC-Gao.github.io/blob/master/images/niko.gif) <br>
- <img src="https://github.com/PC-Gao/PC-Gao.github.io/blob/master/images/niko.gif" width="150px"> <br>
+
+* [Photos](https://github.com/PC-Gao/PC-Gao.github.io/raw/master/images/niko.gif) <br>
+<img src="https://github.com/PC-Gao/PC-Gao.github.io/raw/master/images/niko.gif" width="150px"> <br>
+
 </div>
 
 
