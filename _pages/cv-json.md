@@ -33,3 +33,10 @@ redirect_from:
   <a href="{{ base_path }}/files/cv.pdf" class="btn btn--primary">Download CV as PDF</a>
   <a href="{{ base_path }}" class="btn btn--inverse">View Markdown CV</a>
 </div>
+
+
+## 联系我
+- 📧 邮箱：[pcgao@gmail.com](mailto:pcgao@example.com)
+- 🔗 LinkedIn：[PCGAO LinkedIn](https://www.linkedin.com/in/pcgao)
+- 🐦 Twitter：[@PCGAO](https://twitter.com/PCGAO)
+

@@ -8,26 +8,33 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
+
+  # - title: "Teaching"
+  #   url: /teaching/    
+    
+  # - title: "Portfolio"
+  #   url: /portfolio/
+    
+  - title: "PCGao"
+    url: /markdown/        
+  
+  - title: "博客"
+    url: /cv-json/
+
+  # - title: "archive"
+  #   url: /year-archive/
+
+  - title: "技术杂谈"
+    url: /cv/
+
+  - title: "项目列表"
+    url: /project/   
+
   - title: "学术期刊"
     url: /publications/
 
-  - title: "项目"
-    url: /project/    
+ 
 
-  - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "Portfolio"
-    url: /portfolio/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
-    
-  - title: "CV"
-    url: /cv/
-    
-  # - title: "CV"
-  #   url: /cv-json/
-    
-  - title: "Guide"
-    url: /markdown/
+
+ 
+
