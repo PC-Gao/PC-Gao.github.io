@@ -176,9 +176,9 @@
   position: relative;
   min-width: 250px;
   background: var(--global-bg-color);
-  width: 100%;
+
   a {
-    display: block;
+    display: inline-block;
     margin: 0 1rem;
     padding: 0.5rem 0;
     color: var(--global-masthead-link-color);
@@ -206,11 +206,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-      
 
     li {
-      display: table-cell;
-      vertical-align: middle;
+      display: inline-block;
+      //vertical-align: middle;
 
       &:first-child {
         font-weight: bold;
