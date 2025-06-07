@@ -204,11 +204,11 @@
 
   .visible-links {
     display: table;
-    justify-content: center;
+
 
     li {
-      display: table-cell;
-      vertical-align: middle;
+      display: flex;
+      justify-content: center;
 
       &:first-child {
         font-weight: bold;
@@ -230,7 +230,7 @@
       a {
         width: 25px;
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         cursor: pointer;
       }
     }
