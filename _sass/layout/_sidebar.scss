@@ -104,19 +104,24 @@
 //   }
 // }
 .author__avatar {
-  display: table-cell;
-  vertical-align: top;
-  width: auto; // 不要限制36px
+  // display: table-cell;
+  // vertical-align: top;
+  // width: auto; // 不要限制36px
 
-  @include breakpoint($large) {
-    display: block;
-    width: auto;
-    height: auto;
-  }
+  // @include breakpoint($large) {
+  //   display: block;
+  //   width: auto;
+  //   height: auto;
+  // }
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 
   img {
-    width: 150px !important;
-    height: 150px !important;
+    width: 200px !important;
+    height: 200px !important;
     border-radius: 50% !important;
     object-fit: cover !important;
     display: block;
