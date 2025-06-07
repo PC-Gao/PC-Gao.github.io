@@ -206,11 +206,11 @@
     //display: table;   justify-content: flex-end;
     display: flex;
     justify-content: center;
-    align-items: center;
+    
     //align-items: center;
     li {
-      display: flex;
-      //vertical-align: middle;
+      display: inline-flex;
+      align-items: center;
 
       &:first-child {
         font-weight: bold;
