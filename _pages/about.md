@@ -22,7 +22,7 @@ redirect_from:
 
 
 ## About Me
-一名热衷于图像超分辨率、去噪、增强等前沿算法的硕3小白（老了老了），由于工作性质，目前也熟悉目标检测、实例分割如 DETR、YOLO、Transformer等代表性模型的原理与实现，本博客主要用于展示个人项目、记录兴趣、开源项目、技术分享以及工作中遇到的疑难杂症。 <br>
+一名热衷于图像超分辨率、去噪、增强等前沿算法的硕3小白，由于工作性质，目前也熟悉目标检测、实例分割如 DETR、YOLO、Transformer等代表性模型的原理与实现，本博客主要用于展示个人项目、记录兴趣、开源项目、技术分享以及工作中遇到的疑难杂症。 <br>
 个人项目介绍 —— <a href="https://github.com/PC-Gao/Project1" style="text-decoration: none; padding: 2px 2px; background-color:rgb(41, 106, 180); color: white; border-radius: 5px; transition: background-color 0.3s;">链接</a>
 
 
