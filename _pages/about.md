@@ -67,12 +67,11 @@ redirect_from:
 
 
 
-
 <script src="https://giscus.app/client.js"
         data-repo="PC-Gao/PC-Gao.github.io"
-        data-repo-id="R_kgDOO1x4-g"
+        data-repo-id="R_kgDOO4K2sA"
         data-category="Announcements"
-        data-category-id="DIC_kwDOO1x4-s4CrKWZ"
+        data-category-id="DIC_kwDOO4K2sM4CrMpk"
         data-mapping="pathname"
         data-strict="0"
         data-reactions-enabled="1"
@@ -80,6 +79,7 @@ redirect_from:
         data-input-position="top"
         data-theme="fro"
         data-lang="zh-CN"
+        data-loading="lazy"
         crossorigin="anonymous"
         async>
 </script>
