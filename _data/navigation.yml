@@ -1,0 +1,42 @@
+# The following is the order of the links in the header of the website.
+#
+# Changing the order here will adjust the order and you can also add additional
+# links. Removing a link prevents it from showing in the header, but does not
+# prevent it from being included in the site.
+#
+# NOTE that only one of the CV options should be selected, the first is for the
+#       formatted page while the second is generated using JSON.
+
+main:
+
+  # - title: "Teaching"
+  #   url: /teaching/    
+    
+  # - title: "Portfolio"
+  #   url: /portfolio/
+    
+  - title: "PCGao"
+    url: /profiles/        
+  
+  
+  # - title: "archive"
+  #   url: /year-archive/
+
+  - title: "技术杂谈"
+    url: /cv/
+
+  - title: "项目列表"
+    url: /project/   
+
+
+  - title: "博客"
+    url: /cv-json/
+
+  # - title: "学术期刊"
+  #   url: /publications/
+
+ 
+
+
+ 
+
