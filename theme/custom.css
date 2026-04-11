@@ -1,0 +1,252 @@
+.pcg-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 280px;
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.pcg-hero__eyebrow {
+  margin: 0 0 0.5rem;
+  color: var(--fg-2);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.pcg-hero h1 {
+  margin-bottom: 0.75rem;
+}
+
+.pcg-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+}
+
+.pcg-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 38px;
+  padding: 0 0.95rem;
+  border: 1px solid var(--theme-popup-border);
+  border-radius: 999px;
+  text-decoration: none;
+}
+
+.pcg-profile-card,
+.pcg-card,
+.pcg-doc-card {
+  border: 1px solid var(--theme-popup-border);
+  border-radius: 12px;
+  background: var(--quote-bg);
+}
+
+.pcg-profile-card {
+  display: grid;
+  gap: 1rem;
+  align-content: start;
+  padding: 1rem;
+}
+
+.pcg-profile-card img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+}
+
+.pcg-profile-card p {
+  margin: 0.35rem 0 0;
+  color: var(--fg-2);
+}
+
+.pcg-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 1.5rem;
+}
+
+#mdbook-content {
+  display: block;
+}
+
+.sidetoc {
+  display: none;
+}
+
+.pcg-card,
+.pcg-doc-card {
+  display: block;
+  padding: 1rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+.pcg-card h3,
+.pcg-doc-card h3 {
+  margin-top: 0;
+}
+
+.pcg-card p,
+.pcg-doc-card p {
+  margin-bottom: 0;
+  color: var(--fg-2);
+}
+
+@media only screen and (max-width: 960px) {
+  .pcg-hero,
+  .pcg-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  #mdbook-content {
+    position: relative;
+    display: block;
+  }
+
+  #mdbook-content > main {
+    position: relative;
+    min-width: 0;
+    padding-right: 170px;
+  }
+
+  #mdbook-content > .nav-wrapper {
+    clear: both;
+  }
+
+  .sidetoc {
+    display: block;
+    position: absolute;
+    left: calc(100% - 200px);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pagetoc {
+    position: fixed;
+    width: 200px;
+    height: calc(100vh - var(--menu-bar-height) - 10rem);
+    overflow: auto;
+    z-index: 1000;
+  }
+
+  .pagetoc a {
+    display: block;
+    padding: 5px 0 5px 10px;
+    border-left: 1px solid var(--sidebar-bg);
+    color: var(--fg) !important;
+    text-align: left;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: background-color 120ms ease, color 120ms ease;
+  }
+
+  .pagetoc a:hover,
+  .pagetoc a.active {
+    background: var(--sidebar-bg);
+    color: var(--sidebar-fg) !important;
+  }
+}
+
+@media only screen and (max-width: 1079px) {
+  .sidetoc {
+    display: none !important;
+  }
+}
+
+.sidebar {
+  font-size: 0.875em;
+}
+
+.sidebar .sidebar-scrollbox {
+  padding: 10px 10px;
+}
+
+.chapter {
+  line-height: 2.2em;
+}
+
+.chapter li.chapter-item {
+  line-height: 1.5em;
+  margin-top: 1.5rem;
+}
+
+.chapter .part-title {
+  margin-top: 1rem;
+  color: var(--fg);
+  font-weight: 700;
+}
+
+.chapter .spacer {
+  height: 2px;
+  margin-top: 8px;
+  background-color: #99ccff;
+}
+
+.sidebar .chapter-item > .chapter-link-wrapper > a {
+  line-height: 1.5em;
+}
+
+.sidebar .chapter-item > .chapter-link-wrapper > a.active {
+  color: var(--sidebar-active);
+}
+
+.sidebar .section {
+  padding-inline-start: 20px;
+  line-height: 1.9em;
+}
+
+.pcg-comments {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--theme-popup-border);
+}
+
+.pcg-comments h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.35rem;
+}
+
+.pcg-comments__body {
+  min-height: 220px;
+}
+
+ol.chapter > li.chapter-item > .chapter-link-wrapper > a > strong[aria-hidden="true"] {
+  display: none;
+}
+
+.mobile-nav-chapters {
+  width: 40px;
+  font-size: 2.5rem;
+}
+
+@media only screen and (max-width: 2560px) {
+  .nav-wide-wrapper {
+    display: none;
+  }
+
+  .nav-wrapper {
+    display: block;
+    position: fixed;
+    bottom: 50px;
+    left: var(--page-padding);
+    right: var(--page-padding);
+  }
+}
+
+@media only screen and (max-width: 2560px) {
+  .sidebar-visible .nav-wide-wrapper {
+    display: none;
+  }
+
+  .sidebar-visible .nav-wrapper {
+    display: block;
+    left: calc(var(--sidebar-width) + var(--page-padding));
+  }
+}
