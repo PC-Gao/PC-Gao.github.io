@@ -21,8 +21,27 @@
     return GISCUS_THEME_MAP[currentMdBookTheme()] || "light";
   }
 
+  function normalizedDiscussionPath() {
+    const path = window.location.pathname || "/";
+
+    if (path === "/" || path === "/index.html") {
+      return null;
+    }
+
+    if (path.endsWith("/index.html")) {
+      return path.slice(0, -10) || "/";
+    }
+
+    return path;
+  }
+
   function insertComments(main) {
     if (!main || main.querySelector(".pcg-comments")) {
+      return null;
+    }
+
+    const discussionPath = normalizedDiscussionPath();
+    if (!discussionPath) {
       return null;
     }
 
@@ -46,7 +65,8 @@
     script.setAttribute("data-repo-id", "R_kgDOO4K2sA");
     script.setAttribute("data-category", "Announcements");
     script.setAttribute("data-category-id", "DIC_kwDOO4K2sM4CrMpk");
-    script.setAttribute("data-mapping", "pathname");
+    script.setAttribute("data-mapping", "specific");
+    script.setAttribute("data-term", discussionPath);
     script.setAttribute("data-strict", "0");
     script.setAttribute("data-reactions-enabled", "1");
     script.setAttribute("data-emit-metadata", "0");
