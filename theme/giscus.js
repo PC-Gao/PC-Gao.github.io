@@ -28,6 +28,10 @@
       return null;
     }
 
+    if (path === "/about/" || path === "/about/index.html") {
+      return "/";
+    }
+
     if (path.endsWith("/index.html")) {
       return path.slice(0, -10) || "/";
     }
