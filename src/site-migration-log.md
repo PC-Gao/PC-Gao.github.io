@@ -14,7 +14,7 @@
 
 当前内容主要位于 `src/` 下：
 
-- `about/index.md`：关于页，同时作为站点主入口
+- `about.md`：关于页，同时作为站点主入口
 - `archive.md`：内容归档
 - `projects/`：项目记录
 - `blog/`：博客文章

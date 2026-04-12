@@ -1,6 +1,6 @@
-<meta http-equiv="refresh" content="0; url=about/">
+<meta http-equiv="refresh" content="0; url=about.html">
 <script>
-  window.location.replace("about/");
+  window.location.replace("about.html");
 </script>
 
-[Redirecting to About...](./about/)
+[Redirecting to About...](./about.html)

@@ -1,6 +1,6 @@
 # 目录
 
-- [About](about/index.md)
+- [About](about.md)
 - [内容归档](archive.md)
 
 # 项目

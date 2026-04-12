@@ -28,7 +28,7 @@
       return null;
     }
 
-    if (path === "/about/" || path === "/about/index.html") {
+    if (path === "/about.html" || path === "/about/" || path === "/about/index.html") {
       return "/";
     }
 
