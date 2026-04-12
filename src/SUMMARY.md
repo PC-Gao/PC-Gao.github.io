@@ -1,28 +1,28 @@
 # 目录
 
 - [About](about.md)
-- [内容归档](archive.md)
 
-# 项目
+# Tech Notes（技术笔记）
 
-- [项目总览](projects/index.md)
+- [Guides（技术分享）](blog/index.md)
   - [Raw Image Process](projects/raw-image-process.md)
   - [DruNet ncnn Windows](projects/drunet-ncnn-windows.md)
   - [Low Light Image Enhancement](projects/low-light-image-enhancement.md)
   - [DeamNet ncnn Windows](projects/deamnet-ncnn-windows.md)
+  - [PPOCRv5-ncnn 移动端速度测试](blog/ppocrv5-ncnn-mobile-test.md)
+  - [CR/DR 牙齿分割阶段记录](blog/cr-dr-segmentation-log.md)
+- [Thoughts（技术杂谈）](blog/tech-rambles.md)
 
-# 博客
+# Mabinogi
 
-- [博客总览](blog/index.md)
-  - [个人主页迁移到 mdBook](blog/homepage-rebuild.md)
-  - [Rust 发展历程](blog/into-rust.md)
+- [Mabinogi Lounge（Mabinogi 水区）](notes/index.md)
 
-# 闲谈
+# Maintenance（维护）
 
-- [闲谈总览](notes/index.md)
-  - [PPOCRv5-ncnn 移动端速度测试](notes/ppocrv5-ncnn-mobile-test.md)
-  - [CR/DR 牙齿分割阶段记录](notes/cr-dr-segmentation-log.md)
+- [Site Migration Log（网站迁移与更新记录）](site-migration-log.md)
+- [Homepage Migration to mdBook（个人主页迁移到 mdBook）](maintenance/homepage-rebuild.md)
+- [Rust 发展历程](maintenance/into-rust.md)
 
-# 维护
+# Archive（归档）
 
-- [网站迁移与更新记录](site-migration-log.md)
+- [Archive（内容归档）](archive.md)

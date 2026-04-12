@@ -177,15 +177,29 @@
 }
 
 .chapter .part-title {
-  margin-top: 1rem;
+  position: static;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
   color: var(--fg);
   font-weight: 700;
+  line-height: 1.35;
+}
+
+.chapter .part-title::after {
+  display: none;
 }
 
 .chapter .spacer {
   height: 2px;
   margin-top: 8px;
   background-color: #99ccff;
+}
+
+.chapter li.chapter-item.pcg-after-part-title {
+  position: static;
+  top: auto;
+  margin-top: 0.6rem !important;
 }
 
 .sidebar .chapter-item > .chapter-link-wrapper > a {

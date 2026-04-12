@@ -1,6 +1,5 @@
-# 闲谈总览
+# Mabinogi Lounge（Mabinogi 水区）
 
-这里适合放实验日志、速度测试、阶段进展和不需要写成长文的内容。
+这里专门留给 Mabinogi 相关的日常记录、截图、闲聊和活动笔记。
 
-- [PPOCRv5-ncnn 移动端速度测试](./ppocrv5-ncnn-mobile-test.md)
-- [CR/DR 牙齿分割阶段记录](./cr-dr-segmentation-log.md)
+目前还没有单独拆出的页面，后面可以继续往这个分区里补内容。
