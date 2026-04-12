@@ -11,7 +11,7 @@ preferred-dark-theme = "navy"
 git-repository-url = "https://github.com/PC-Gao/PC-Gao.github.io"
 edit-url-template = "https://github.com/PC-Gao/PC-Gao.github.io/edit/master/{path}"
 additional-css = ["theme/custom.css"]
-additional-js = ["theme/page-toc.js", "theme/giscus.js"]
+additional-js = ["theme/root-redirect.js", "theme/page-toc.js", "theme/giscus.js"]
 site-url = "/"
 sidebar-header-nav = false
 

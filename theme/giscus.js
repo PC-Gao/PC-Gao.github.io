@@ -25,11 +25,11 @@
     const path = window.location.pathname || "/";
 
     if (path === "/" || path === "/index.html") {
-      return null;
+      return "index";
     }
 
     if (path === "/about.html" || path === "/about/" || path === "/about/index.html") {
-      return "/";
+      return "index";
     }
 
     if (path.endsWith("/index.html")) {
