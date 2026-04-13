@@ -33,6 +33,14 @@ jobs:
       - name: Build
         run: mdbook build
 
+      - name: Copy static assets
+        shell: pwsh
+        run: ./scripts/copy-book-assets.ps1
+
+      - name: Patch sidebar labels
+        shell: pwsh
+        run: ./scripts/patch-sidebar-labels.ps1
+
       - name: Replace root index with redirect
         shell: pwsh
         run: ./scripts/replace-root-index.ps1

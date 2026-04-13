@@ -231,7 +231,146 @@
   min-height: 220px;
 }
 
+.pcg-demo {
+  display: grid;
+  gap: 1rem;
+  margin: 1.25rem 0 2rem;
+}
+
+.pcg-demo__toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.pcg-demo__upload {
+  cursor: pointer;
+}
+
+.pcg-demo input[type="file"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  clip-path: inset(50%);
+}
+
+.pcg-demo__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.pcg-demo__panel {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.pcg-demo__label {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.pcg-demo__frame {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 320px;
+  padding: 1rem;
+  border: 1px solid var(--theme-popup-border);
+  border-radius: 14px;
+  background:
+    linear-gradient(180deg, rgba(127, 211, 216, 0.08), rgba(127, 211, 216, 0.02)),
+    var(--quote-bg);
+  overflow: hidden;
+}
+
+.pcg-demo__frame--empty {
+  border-style: dashed;
+}
+
+.pcg-demo__frame span {
+  max-width: 18rem;
+  color: var(--fg-2);
+  text-align: center;
+  line-height: 1.6;
+}
+
+.pcg-demo__frame img {
+  display: none;
+  max-width: 100%;
+  max-height: 520px;
+  border-radius: 10px;
+  object-fit: contain;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
+}
+
+.pcg-demo__frame:not(.pcg-demo__frame--empty) span {
+  display: none;
+}
+
+.pcg-demo__frame:not(.pcg-demo__frame--empty) img {
+  display: block;
+}
+
+.pcg-demo__status {
+  margin: 0;
+  color: var(--fg-2);
+  font-size: 0.95rem;
+}
+
+.pcg-crdr-table-page #mdbook-content main .table-wrapper {
+  overflow-x: auto;
+}
+
+.pcg-crdr-table-page #mdbook-content main .table-wrapper table {
+  width: max-content;
+  min-width: 100%;
+}
+
+.pcg-crdr-table-page #mdbook-content main .table-wrapper th,
+.pcg-crdr-table-page #mdbook-content main .table-wrapper td {
+  vertical-align: top;
+}
+
+.pcg-crdr-table-page #mdbook-content main .table-wrapper td img {
+  display: block;
+  width: auto;
+  height: auto;
+  margin: 0 auto 0.4rem;
+  object-fit: contain;
+}
+
+.pcg-issue-test-page #mdbook-content main .table-wrapper td img {
+  max-width: 220px;
+  max-height: 260px;
+}
+
+.pcg-resolution-compare-page #mdbook-content main .table-wrapper td img {
+  max-width: 128px;
+  max-height: 168px;
+}
+
+@media only screen and (max-width: 960px) {
+  .pcg-demo__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pcg-demo__frame {
+    min-height: 240px;
+  }
+}
+
 ol.chapter > li.chapter-item > .chapter-link-wrapper > a > strong[aria-hidden="true"] {
+  display: none;
+}
+
+.section > li.chapter-item > .chapter-link-wrapper > a[href="blog/ai-studio.html"] > strong[aria-hidden="true"] {
   display: none;
 }
 
