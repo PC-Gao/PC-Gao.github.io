@@ -331,6 +331,8 @@
 .pcg-crdr-table-page #mdbook-content main .table-wrapper table {
   width: max-content;
   min-width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
 }
 
 .pcg-crdr-table-page #mdbook-content main .table-wrapper th,
@@ -342,18 +344,40 @@
   display: block;
   width: auto;
   height: auto;
-  margin: 0 auto 0.4rem;
+  margin: 0 auto 0.45rem;
+  padding: 0.25rem;
+  border: 1px solid var(--theme-popup-border);
+  border-radius: 8px;
+  background: var(--bg);
   object-fit: contain;
 }
 
+.pcg-issue-test-page #mdbook-content main .table-wrapper td:nth-child(-n + 3) {
+  min-width: 220px;
+}
+
+.pcg-issue-test-page #mdbook-content main .table-wrapper td:last-child {
+  min-width: 9rem;
+}
+
 .pcg-issue-test-page #mdbook-content main .table-wrapper td img {
-  max-width: 220px;
-  max-height: 260px;
+  width: 210px;
+  max-width: 100%;
+  max-height: 250px;
+}
+
+.pcg-resolution-compare-page #mdbook-content main .table-wrapper td:first-child {
+  white-space: nowrap;
+}
+
+.pcg-resolution-compare-page #mdbook-content main .table-wrapper td:not(:first-child) {
+  min-width: 136px;
 }
 
 .pcg-resolution-compare-page #mdbook-content main .table-wrapper td img {
-  max-width: 128px;
-  max-height: 168px;
+  width: 124px;
+  max-width: 100%;
+  max-height: 160px;
 }
 
 @media only screen and (max-width: 960px) {
@@ -367,10 +391,6 @@
 }
 
 ol.chapter > li.chapter-item > .chapter-link-wrapper > a > strong[aria-hidden="true"] {
-  display: none;
-}
-
-.section > li.chapter-item > .chapter-link-wrapper > a[href="blog/ai-studio.html"] > strong[aria-hidden="true"] {
   display: none;
 }
 
